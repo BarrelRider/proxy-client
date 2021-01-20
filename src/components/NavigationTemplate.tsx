@@ -10,7 +10,7 @@ import {
   NavbarBrand,
   Button,
 } from "reactstrap";
-import HeadphonesIcon from "./Icons/HeadPhonesIcon";
+import HeadphonesIcon from "./Icons/HeadphonesIcon";
 import LogoIcon from "./Icons/LogoIcon";
 import MenuIcon from "./Icons/MenuIcon";
 import MessageIcon from "./Icons/MessageIcon";
