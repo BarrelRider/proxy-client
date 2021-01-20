@@ -1,0 +1,38 @@
+import React from "react";
+
+const BackIcon: React.FC<any> = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <mask
+      id="backMask"
+      mask-type="alpha"
+      maskUnits="userSpaceOnUse"
+      x="4"
+      y="4"
+      width="16"
+      height="16"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M12 4L13.41 5.41L7.83 11H20V13H7.83L13.41 18.59L12 20L4 12L12 4Z"
+        fill="white"
+      />
+    </mask>
+    <g mask="url(#backMask)">
+      <rect
+        width="24"
+        height="24"
+        transform="matrix(-1 0 0 1 24 0)"
+        fill="#80868B"
+      />
+    </g>
+  </svg>
+);
+
+export default BackIcon;
