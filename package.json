@@ -23,13 +23,13 @@
     "@types/reactstrap": "^8.4.1",
     "@types/webpack-env": "^1.15.1",
     "@webpack-cli/serve": "^1.2.2",
-    "http-proxy": "^1.18.1",
     "source-map-loader": "^0.2.4",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "awesome-typescript-loader": "^5.2.1",
+    "http-proxy": "^1.18.1",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.6.0",
     "cors": "^2.8.5",
